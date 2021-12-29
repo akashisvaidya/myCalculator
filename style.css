@@ -1,0 +1,44 @@
+/* .btn {
+  width: 40px;
+  height: 40px;
+} */
+.input_numbers {
+  width: 100%;
+  padding: 1rem;
+}
+.btn {
+  font-size: large;
+  font-weight: bold;
+}
+.btn-circle {
+  background-color: aliceblue;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+}
+.equal {
+  width: 20%;
+  font-size: 20px;
+  /* position: relative;
+  overflow: hidden; */
+}
+/* .equal:before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #17a2b8;
+  position: absolute;
+  top: 0;
+  left: -75px;
+  border-radius: 100%; */
+}
+@media (max-width: 768px), (max-width: 1024px) {
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 100%;
+    margin-left: auto;
+    height: 30rem;
+  }
+}

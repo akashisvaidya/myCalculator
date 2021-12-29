@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div
+        class="
+          card
+          justify-content-center
+          text-center
+          col-md-6
+          offset-md-3
+          mt-4
+          shadow-lg
+          p-3
+          mb-5
+          bg-white
+          rounded
+        "
+      >
+        <!-- <img src="pattern.jpg" class="card-img-top" alt="..." /> -->
+        <div class="card-header bg-dark">
+          <h5 class="card-title text-white">Calculator</h5>
+          <input class="input_numbers" type="text" name="" id="" readonly />
+        </div>
+        <div class="button-group bg-info" role="group">
+          <button type="button" class="btn btn-clear">Clear</button>
+          <button type="button" class="btn btn-del">Del</button>
+          <!-- <button type="button" class="btn operator">%</button> -->
+          <button type="button" class="btn operator">×</button>
+        </div>
+        <div class="button-group bg-info" role="group">
+          <button type="button" class="btn btn-num">7</button>
+          <button type="button" class="btn btn-num">8</button>
+          <button type="button" class="btn btn-num">9</button>
+          <button type="button" class="btn operator">÷</button>
+        </div>
+        <div class="button-group bg-info" role="group">
+          <button type="button" class="btn btn-num">4</button>
+          <button type="button" class="btn btn-num">5</button>
+          <button type="button" class="btn btn-num">6</button>
+          <button type="button" class="btn operator">-</button>
+        </div>
+        <div class="button-group bg-info" role="group">
+          <button type="button" class="btn btn-num">1</button>
+          <button type="button" class="btn btn-num">2</button>
+          <button type="button" class="btn btn-num">3</button>
+          <button type="button" class="btn operator">+</button>
+        </div>
+        <div class="card-body bg-info">
+          <button type="button" class="btn btn-circle btn-num">0</button>
+          <button type="button" class="btn btn-num">.</button>
+          <button type="button" class="btn btn-dark equal">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="keyboard.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
